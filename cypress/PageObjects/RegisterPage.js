@@ -5,11 +5,6 @@ class RegisterPage
         cy.visit('http://demo.automationtesting.in/Register.html')
     }
 
-    FirstName()
-    {
-        const FirstName= cy.get('[ng-model="FirstName"]')
-    }
-
     FirstName_textbox(value)
     {
         const FirstName= cy.get('[ng-model="FirstName"]')
